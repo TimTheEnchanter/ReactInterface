@@ -10,7 +10,7 @@
         function Header({ title }) {
             console.log(title);
 
-            return <h1>{title}</h1>;
+            return <h1>{title ? title : 'Default React Title'}</h1>;
         }
 
         function HomePage() {
